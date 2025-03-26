@@ -13,9 +13,7 @@ export default function FoodScreen() {
     if (hunger > 0 || hunger < 100) {
       hunger = hunger - 20 && energy - 5;
     }
-
-    console.log(hunger);
-    return hunger;
+    return feedPetWithCheck;
   };
 
   return (
